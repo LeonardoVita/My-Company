@@ -1,0 +1,111 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+	/* HEADER  */
+	.nav-menu{	
+		display: none;
+	}
+	.header-container .menu-trigger {
+		display: block !important;
+	}
+
+	.header-container .nav-menu {
+		overflow: hidden;
+	}
+	.header-container .nav-menu {
+		text-align: center;
+		width: 100%;
+		margin-top: 0;
+		display: none;
+		-webkit-transition: all 0s ease 0s;
+		-moz-transition: all 0s ease 0s;
+		-o-transition: all 0s ease 0s;
+		transition: all 0s ease 0s;
+		margin-left: 0px;
+		border-radius: 0 0 40px 40px ;
+	}
+	.header-container .nav-menu li:first-child {
+		border-top: 1px solid #eee;
+	}
+	.header-container .nav-menu li {
+		width: 100%;
+		background: #ccc;
+		border-bottom: 1px solid #eee;
+		padding-left: 0px ;
+		padding-right: 0px ;
+	}
+	.header-container .nav-menu li a {
+		margin-right: 0;		
+		line-height: 50px ;
+		padding: 0px ;
+		border: none ;
+		background:none ;
+		color: #3B566E ;
+		display: block ;	
+	}
+	.header-container .nav-menu li a:hover {
+		background: #eee !important;	
+	}	
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+
+	.nav-menu{	
+		display: none;
+	}
+	.header-container{
+		top: 5px !important;
+	}
+	.header-container .menu-trigger {
+		display: block !important;
+	}
+
+	.header-container .nav-menu {
+		overflow: hidden;
+		margin-bottom: 0;
+	}
+	.header-container .nav-menu {
+		text-align: center;
+		width: 100%;
+		margin-top: 0;
+		display: none;
+		-webkit-transition: all 0s ease 0s;
+		-moz-transition: all 0s ease 0s;
+		-o-transition: all 0s ease 0s;
+		transition: all 0s ease 0s;
+		margin-left: 0px;
+		border-radius: 0 0 40px 40px ;
+	}
+	.header-container .nav-menu li:first-child {
+		border-top: 1px solid #eee;
+	}
+	.header-container .nav-menu li {
+		width: 100%;
+		background: #ccc;
+		border-bottom: 1px solid #eee;
+		padding-left: 0px ;
+		padding-right: 0px ;
+	}
+	.header-container .nav-menu li a {
+		margin-right: 0;		
+		line-height: 50px ;
+		padding: 0px ;
+		border: none ;
+		background:none ;
+		color: #3B566E ;
+		display: block ;	
+	}
+	.header-container .nav-menu li a:hover {
+		background: #eee !important;	
+	}
+
+	/* WELLCOME  */	
+
+	.wellcome p {
+		padding: 30px 0;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+} /* Final do estilo para smartphone */
