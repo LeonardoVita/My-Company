@@ -6,7 +6,7 @@ body {
 
 p {
 	font-family: Georgia, "Times New Roman", serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22px;
 }
 
@@ -134,7 +134,13 @@ li {
 
 /* WELLCOME  */
 #wellcome{
-    background-color: #888;
+    background: url('../img/home-background.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.smooth{
+    background-color: rgba(87, 176, 248, 0.705);
 }
 .wellcome{    
     height: 100vh;
@@ -180,6 +186,12 @@ li {
     background-color: #1365ff;
     color: #ccc; 
 }
+
+#wellcome svg{
+    margin-top: -20vh;
+    margin-bottom: -10px;    
+}
+
 
 /* HOME FEATURE  */
 
@@ -249,3 +261,5 @@ li {
 .card p{
     color: #888;
 }
+
+
