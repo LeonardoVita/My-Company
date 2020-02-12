@@ -25,8 +25,8 @@ li {
     font-size: 13px;
     letter-spacing: 0.25px;
     border-radius: 40px;
-    background-color: #ccc;
-    color: #1e1e1e; 
+    background-color: #1365ff;
+    color: #f7f7f7; 
 
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -36,8 +36,8 @@ li {
 
 .button:hover{
     
-    background-color: #1365ff;
-    color: #ccc; 
+    background-color: #3B566E;
+    color: #f7f7f7; 
 }
 /* header */
 
@@ -46,10 +46,9 @@ li {
     top: 30px;
     left: 0;
     right: 0;
-    background-color: #ccc;
+    background-color: #f7f7f7;
     border-radius: 40px;
-    z-index: 90;
-    
+    z-index: 90;    
 }
 .logo{
     width: 90px;
@@ -187,6 +186,12 @@ li {
     margin-bottom: 20px;
 }
 
+.wellcome a{
+    background-color: #3B566E;
+}
+.wellcome a:hover{
+    background-color: #1365ff; 
+}
 #wellcome svg{
     margin-top: -20vh;
     margin-bottom: -10px;    
@@ -201,7 +206,7 @@ li {
 }
 
 .card{
-    background-color: #ccc;
+    background-color: #f7f7f7;
     height: 300px;
        
     border-radius: 40px;
@@ -213,6 +218,7 @@ li {
     align-items: center;
 
     text-align: center;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.212);
 }
 
 .icon{    
