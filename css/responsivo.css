@@ -141,4 +141,10 @@
 		padding: 0;
 	}
 
+	/* WORK FLOW  */
+
+	.flow{   
+		flex-direction: column;		
+	}
+
 } /* Final do estilo para smartphone */
