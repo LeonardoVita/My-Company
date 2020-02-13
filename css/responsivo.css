@@ -1,10 +1,7 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 	/* ESTILOS PADROES  */
-	.button{
-		padding: 17px 25px;
-		font-size: 14px;	
-	}
+	
 	
 	/* HEADER  */
 	.nav-menu{	
@@ -52,16 +49,27 @@
 		background: #eee !important;	
 	}	
 
+	/* PRICING PLANS  */
+	.pricing-card{
+		padding: 0 10px;
+	}
+	.pricing-card h2{
+		margin-bottom: 15px;		
+	}
+	.pricing-valor{
+		margin-bottom: 20px;
+	}
+	.pricing-card .button{
+		margin-top: 10px;
+	}
+
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
 
 	/* ESTILOS PADROES  */
-	.button{
-		padding: 22px 30px;
-		font-size: 14px;		
-	}
+	
 	/* HEADER  */
 
 	.nav-menu{	
@@ -145,6 +153,22 @@
 
 	.flow{   
 		flex-direction: column;		
+	}
+
+	/* PRICING PLANS  */
+	.pricing-card{
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.pricing-card h2{
+		margin-bottom: 15px;		
+	}
+	.pricing-valor{
+		margin-bottom: 10px;
+	}
+	.pricing-card .button{
+		margin-top: 10px;
+		letter-spacing: .1em;
 	}
 
 } /* Final do estilo para smartphone */
