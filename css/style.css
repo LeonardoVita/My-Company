@@ -40,6 +40,9 @@ li {
     background-color: #3B566E;
     color: #f7f7f7; 
 }
+.primary-white{
+    color: #f7f7f7;
+}
 /* header */
 
 .header-container{
@@ -374,9 +377,8 @@ li {
 
 /* PRICING PLANS  */
 
-#pricing{
-    margin-bottom: 40px;
-    padding:80px 0 40px 0  ;  
+#pricing{    
+    padding:80px  0  ;  
     background-color: #f7f7f7;
 }
 .pricing-title{
@@ -402,7 +404,7 @@ li {
 .pricing-card{
     background: #fff;
     height: 60vh;    
-    min-height: 400px;
+    min-height: 440px;
     border-radius: 25px;
     padding: 0 40px;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.205);
@@ -461,4 +463,37 @@ li {
 
 .line-through{
     text-decoration: line-through
+}
+
+/* COUNTER  */
+
+#counter{
+    background-color: #3B566E;    
+    margin-bottom: 40px;
+    padding: 150px 0;
+}
+.counter-area{  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.counter{
+    text-align: center;
+}
+
+.counter p{
+    font-size: 32px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    line-height: 38px;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.counter h4{
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 22px;
+    color: #f7f7f7;    
 }
