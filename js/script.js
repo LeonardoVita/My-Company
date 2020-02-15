@@ -50,4 +50,18 @@
         }
     });
 
+
 })(window.jQuery);
+
+
+var waypoint_ele = document.getElementsByClassName('basic-waypoint');
+for (var i = 0; i < waypoint_ele.length; i++) {
+    new Waypoint({
+        element: waypoint_ele[i],
+        handler: function () {
+            console.log("ativou")
+            this.classList.add('.active');
+        },
+        offset: '75%'
+    })
+}
