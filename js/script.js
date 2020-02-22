@@ -60,7 +60,6 @@ for (var i = 0; i < waypoint_ele.length; i++) {
         element: waypoint_ele[i],
         handler: function () {
             console.log("ativou")
-            this.classList.add('.active');
         },
         offset: '75%'
     })
