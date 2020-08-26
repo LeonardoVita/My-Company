@@ -169,6 +169,8 @@ li {
 }
 .wellcome{    
     height: 100vh;
+    max-height: 650px;
+    min-height: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
