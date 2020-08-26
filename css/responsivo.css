@@ -76,7 +76,7 @@
 		display: none;
 	}
 	.header-container{
-		top: 5px !important;
+		top: 10px !important;
 	}
 	.header-container .menu-trigger {
 		display: block !important;
